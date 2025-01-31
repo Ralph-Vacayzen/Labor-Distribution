@@ -45,7 +45,7 @@ st.set_page_config(page_title='Labor Distribution', page_icon='📄', layout='wi
 
 st.caption('VACAYZEN')
 st.title('Labor Distribution')
-st.info('Convert the Paylocity Master Timecard Summary into a labor distribution files.')
+st.info('Convert the Paylocity Master Timecard Summary into labor distribution files.')
 
 file = st.file_uploader('Master Timecard Summary','xls')
 
